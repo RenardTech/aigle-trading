@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <a href="index.html">ici</a>
+<h1>CAHIER DE CHARGES</h1>
+<form id="contact_form">
+    <h4>Présentation</h4>
+    <div class="champ">
+        <label for="entreprise_name">Nom de l'Entreprise: </label>
+        <input type="text" id="entreprise_name" required>
+    </div>
+    <div class="champ">
+        <label for="creation_year">Annéende créaton: </label>
+        <input type="text" id="creation_year" required>
+
+    </div>
+
+   <div class="champ">
+    <label for="industry">Secteur d'activité: </label>
+    <select name="industry" id="industry">
+        <option value="0"></option>
+        <option value="1">Artisan</option>
+        <option value="2">E-commerce</option>
+        <option value="3">Finance</option>
+        <option value="4">industrie</option>
+        <option value="5">Informatique</option>
+        <option value="6">Marketing</option>
+        <option value="7">Autre</option>
+    </select>
+   </div>
+
+    
+    <h4>Votre Projet</h4>
+    
+    <div class="champ">
+        <h5>Description du projet</h5>
+        <label for="poject_description">
+            Expliquez votre projet le plus clairement 
+            possible afin qu’une personne extérieure 
+            à votre entreprise puisse s’imprégner 
+            rapidement du contexte de votre demande. 
+            Décrivez comment votre projet est né, vos 
+            attentes, votre vision du déroulé du projet…
+        </label>
+        <textarea name="poject_description" id="poject_description" cols="30" rows="10"></textarea>
+    </div>
+
+    <div class="champ">
+        <h5>Vos besoins</h5>
+        <label for="besoin">
+            Décrivrez les raisons pour lesquelles 
+            vous souhaitez développer votre projet. 
+            Soyez le plus clair possible pour nous permettre de 
+            comprendre rapidement votre 
+            problématique
+        </label>
+       <textarea name="besoin" id="besoin" cols="30" rows="10"></textarea>
+
+    </div>
+
+    <h4>type de site</h4>
+    <div class="champ">
+        <div class="">
+            <input name="site_vitrine" type="checkbox" id="site_vitrine">
+            <label for="site_vitrine">Site vitrine </label>
+        </div>
+    
+        <div class="">
+            <input name="e_commerce" type="checkbox" id="e_commerce">
+            <label for="e_commerce">E-commerce</label>
+        </div>
+    
+        <div class="">
+            <input name="site_vitrine" type="checkbox" id="site_vitrine">
+            <label for="site_vitrine">Site vitrine </label>
+        </div>
+        <div class="">
+            <input name="blog" type="checkbox" id="blog">
+            <label for="blog">Blog </label>
+        </div>
+    
+        <div class="">
+            <input name="affiliation" type="checkbox" id="affiliation">
+            <label for="affiliation">Site d'affiliation </label>
+        </div>
+        
+        <div class="">
+            <input name="place_du_marche" type="checkbox" id="place_du_marche">
+            <label for="place_du_marche">Place du marché </label>
+        </div>
+    </div>
+
+    <h4>Fonctionnalités attendues</h4>
+    <div class="champ">
+        <div class="">
+            <input  type="checkbox" id="contact_form">
+            <label for="contact_form"> Formulaire de contact </label>
+        </div>
+    
+        <div class="">
+            <input name="client_space" type="checkbox" id="client_space">
+            <label for="client_space">Espace client ou membre</label>
+        </div>
+    
+        <div class="">
+            <input name="blog_check" type="checkbox" id="blog_check">
+            <label for="blog_check">Blog </label>
+        </div>
+        <div class="">
+            <input name="multilingue" type="checkbox" id="multilingue">
+            <label for="multilingue">Multilingue</label>
+        </div>
+    
+        <div class="">
+            <input name="multimedias" type="checkbox" id="multimedias">
+            <label for="multimedias">Contenus multimédias(photos,vidéos)  </label>
+        </div>
+        
+        <div class="">
+            <input name="localisation" type="checkbox" id="localisation">
+            <label for="localisation">Géolocalisation </label>
+        </div>
+
+        <div class="">
+            <input name="paiement" type="checkbox" id="paiement">
+            <label for="paiement">Moyen de paiement </label>
+        </div>
+    </div>
+
+    <h4>Demande de spécification</h4>
+    <div class="champ">
+        <label for="demande">
+            Indiquez toutes les fonctionnalités propres 
+            à votre activité à intégrer à votre futur site. 
+            Soyez précis afin que nous puissions
+            avoir une vision précise de votre demande
+        </label>
+        <textarea name="demande" id="demande" cols="30" rows="10"></textarea>
+    </div>
+    
+    <h4>Besoins Connexes</h4>
+    <div class="champ">
+        <h5>Besoins technique</h5>
+        <div class="">
+            <input name="hebergement" type="checkbox" id="hebergement">
+            <label for="hebergement">Hébergement</label>
+        </div>
+    
+        <div class="">
+            <input name="maintenance" type="checkbox" id="maintenance">
+            <label for="maintenance">Maintenance</label>
+        </div>
+    
+        <div class="">
+            <input name="depannage" type="checkbox" id="depannage">
+            <label for="depannage">Dépannage </label>
+        </div>
+        <div class="">
+            <input name="service_tiers" type="checkbox" id="service_tiers">
+            <label for="service_tiers">Intégration de service tiers(IA, automatisation, etc...) </label>
+        </div>
+    </div>
+
+    <div class="champ">
+        <h5>Besoins Marketing</h5>
+        <div class="">
+            <input name="seo" type="checkbox" id="seo">
+            <label for="seo">Rédaction de contenus SEO</label>
+        </div>
+    
+        <div class="">
+            <input name="social_media" type="checkbox" id="social_media">
+            <label for="social_media">Réseaux sociaux</label>
+        </div>
+    
+        <div class="">
+            <input name="referencement" type="checkbox" id="referencement">
+            <label for="referencement">Référencement </label>
+        </div>
+        <div class="">
+            <input name="service_tiers" type="checkbox" id="service_tiers">
+            <label for="service_tiers">Autres</label>
+        </div>
+    </div>
+
+    <h4>Page et arborescence</h4>
+    <div class="champ">
+        <h5>Arborescence de votre future site</h5>
+        <div class="champ">
+            <label for="arborescence">
+                L’arborescence présente clairement l’architecture de votre site. Elle indique le chemin à parcourir pour aller d’une page à une autre. 
+            </label>
+            <textarea name="arborescence" id="arborescence" cols="30" rows="10"></textarea>
+        </div>
+
+        <h5>Nombre de pages estimé</h5>
+        <div class="champ">
+            <label for="nombre_pages">
+                Vous pouvez les organiser par catégories pour faciliter la compréhension. Exemple de catégories : Page client = 3, Page produit = 16, 
+                Page vitrine = 7 , et
+            </label>
+            <textarea name="nombre_pages" id="nombre_pages" cols="30" rows="10"></textarea>
+        </div>
+    
+    </div>
+    
+    
+</form>
+
+    <script src="script.js"></script>
+</body>
+</html>
